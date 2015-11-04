@@ -53,4 +53,5 @@ describe "#binary_multiple_of_4?" do
     expect(binary_multiple_of_4?('a100')).to be_falsy, "'a100' is not a valid binary number!"
     expect(binary_multiple_of_4?('')).to be_falsy, "The empty string is not a valid binary number!"
   end
+
 end
